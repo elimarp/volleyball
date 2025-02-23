@@ -13,7 +13,7 @@ import QueueScreen from './components/pages/Queue';
 import RegisterPlayerScreen from './components/pages/RegisterPlayer';
 import PeopleIcon from '@mui/icons-material/People';
 import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
-import PlayingScreen from './components/pages/PlayingScreen';
+import CourtScreen from './components/pages/Court';
 
 type Page = 'players' | 'queue' | 'register-player' | 'playing'
 
@@ -28,7 +28,7 @@ const App: React.FC = () => {
       {page === 'players' && <PlayersScreen/>}
       {page === 'queue' && <QueueScreen/>}
       {page === 'register-player' && <RegisterPlayerScreen/>}
-      {page === 'playing' && <PlayingScreen/>}
+      {page === 'playing' && <CourtScreen/>}
       <Paper sx={{ position: 'fixed', bottom: 75, width: '100vw' }} elevation={3}>
         <BottomNavigation
           showLabels

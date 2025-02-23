@@ -1,6 +1,9 @@
 /* eslint-disable no-restricted-globals */
 // Basic service worker setup for Create React App
 // You can customize this file for caching, push notifications, etc.
+import { precacheAndRoute } from "workbox-precaching";
+
+precacheAndRoute((self as any).__WB_MANIFEST || []);
 
 const CACHE_NAME = "my-pwa-cache-v1";
 const urlsToCache = ["/", "/index.html", "/manifest.json"];

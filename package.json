@@ -44,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.5.0",
+    "workbox-webpack-plugin": "^7.3.0"
   }
 }

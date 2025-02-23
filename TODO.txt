@@ -1,0 +1,12 @@
+IMPORT/EXPORT DATA: https://wa.me/5511914169534?text=oi
+
+// TODO: HERE! simulate:
+// - a player in court being replaced (forever)
+// - a player in court being replaced by someone at the queue (replaced player goes to end of the queue; replacer gets all stats)
+
+NOW:
+- exportar relatório
+- switch player (by id)
+
+TEST:
+- replace court player by first of the queue. then checkout replaced player
