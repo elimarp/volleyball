@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/volleyball/static/css/main.ecd1c354.css",
-    "main.js": "/volleyball/static/js/main.c64cdd97.js",
+    "main.js": "/volleyball/static/js/main.6fb7a37d.js",
     "static/js/453.8718dbb1.chunk.js": "/volleyball/static/js/453.8718dbb1.chunk.js",
     "service-worker.js": "/volleyball/service-worker.js",
     "static/media/roboto-latin-700-normal.woff2": "/volleyball/static/media/roboto-latin-700-normal.4535474e1cf8598695ad.woff2",
@@ -62,11 +62,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/volleyball/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/volleyball/index.html",
     "main.ecd1c354.css.map": "/volleyball/static/css/main.ecd1c354.css.map",
-    "main.c64cdd97.js.map": "/volleyball/static/js/main.c64cdd97.js.map",
+    "main.6fb7a37d.js.map": "/volleyball/static/js/main.6fb7a37d.js.map",
     "453.8718dbb1.chunk.js.map": "/volleyball/static/js/453.8718dbb1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecd1c354.css",
-    "static/js/main.c64cdd97.js"
+    "static/js/main.6fb7a37d.js"
   ]
 }
